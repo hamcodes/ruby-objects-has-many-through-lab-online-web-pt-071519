@@ -19,6 +19,7 @@ class Artist
     def new_song(name, genre)
       name = Song.new(name, self, genre)
     end
+  #The Artist class needs an instance method, #genres that iterates over that artist's songs and collects the genre of each song.
   
       def genres
       songs.map do |x|
