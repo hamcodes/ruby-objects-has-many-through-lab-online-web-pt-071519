@@ -25,10 +25,6 @@ class Doctor
       a.patient
   end
 end
-    # def artists
-    #   songs.map do |artist|
-    #     artist.artist
-    #   end
-    # end
+
   
 end
