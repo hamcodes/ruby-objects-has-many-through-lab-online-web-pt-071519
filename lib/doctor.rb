@@ -21,8 +21,8 @@ class Doctor
   end
 
   def patients
-    appointment.map do |patient|
-      patient.patient
+    appointment.map do |a|
+      a.patient
   end
 end
     # def artists
