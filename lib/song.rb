@@ -2,5 +2,8 @@ class Song
   @@all = []
 end
 
-def self.all 
+def initialize(name, artist, genre)
   
+def self.all 
+  @@all 
+end
