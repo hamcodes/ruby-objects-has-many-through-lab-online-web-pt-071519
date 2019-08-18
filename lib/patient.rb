@@ -16,6 +16,10 @@ class Patient
   end
   
   def doctors
+    songs.map do |artist|
+    rtist.artist
+  end
+end
     
   
 end
