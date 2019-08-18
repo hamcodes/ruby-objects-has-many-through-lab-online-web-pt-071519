@@ -2,7 +2,7 @@ class Patient
   
   @@all = []
   
-  def intialize(name)
+  def intialize
     @name = name
     @@all << self
   end
