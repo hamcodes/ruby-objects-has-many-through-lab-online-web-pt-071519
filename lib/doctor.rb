@@ -21,8 +21,10 @@ class Doctor
   end
 
   def patients
-    
+    appointment.map do |patient|
+      patient.patient
   end
+end
     # def artists
     #   songs.map do |artist|
     #     artist.artist
