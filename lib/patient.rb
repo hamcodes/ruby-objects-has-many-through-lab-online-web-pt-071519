@@ -15,12 +15,7 @@ class Patient
     Appointment.new(doctor, self, date)
   end
   
-  def patients
-    .map do |x|
-        x.genre
-      end
-    end
-end
+  #The Artist class needs an instance method, #genres that iterates over that artist's songs and collects the genre of each song.
     
   
 end
