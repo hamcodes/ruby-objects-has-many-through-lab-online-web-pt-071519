@@ -5,7 +5,8 @@ class Genre
   end
   
   def initialize(name)
-    
+    @@all << self
+  end
   
   
 end
