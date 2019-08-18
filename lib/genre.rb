@@ -10,8 +10,9 @@ class Genre
     @@all << self
   end
   
-  def songs 
-    
+  def songs
+    Song.all.select do |song| song.artist == self
+    end
   end
   
 end
