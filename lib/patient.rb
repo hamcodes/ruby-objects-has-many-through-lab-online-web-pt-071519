@@ -15,10 +15,11 @@ class Patient
     Appointment.new(doctor, self, date)
   end
   
-  def doctors
-    songs.map do |artist|
-    rtist.artist
-  end
+  def patients
+    .map do |x|
+        x.genre
+      end
+    end
 end
     
   
