@@ -19,12 +19,14 @@ class Doctor
     Appoinement.all.select do |appointment| appointment.doctor == self
     end
   end
-    
+
   def patients
-    songs.map do |artist|
-    artist.artist
-    end
+    
   end
-  
+    # def artists
+    #   songs.map do |artist|
+    #     artist.artist
+    #   end
+    # end
   
 end
